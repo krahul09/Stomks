@@ -11,6 +11,20 @@ export const metadata: Metadata = {
   title: "Stomks - Where Memes Meet Money",
   description:
     "Trade stocks, make memes, and learn trading without losing your actual tendies. To the moon! 🚀",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+    apple: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
